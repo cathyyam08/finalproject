@@ -1,0 +1,117 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
+
+/*Homepage*/
+
+  .nameandtitle {
+    margin-left: 10%;
+    font-family: 'Spectral', serif;
+    font-size: 24px;
+  }
+
+  .Homepagepicture {
+    align-items: center;
+  }
+
+  .Homepagepicture img {
+    width: 80%;
+    height: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2%;
+    width: 75%
+  }
+
+  .bottommenu {
+    width: 80%;
+    font-family: 'Spectral', serif;
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+  }
+
+  .bottommenu a {
+    text-decoration: none;
+    color: black;
+  }
+
+  .socialmedia a {
+    margin-right: 3px;
+  }
+
+  /*Written Work Page*/
+    img {
+      width: 80%;
+    }
+
+    section {
+      padding: 50px 0px;
+    }
+
+    .carousel {
+      width: 90%;
+      margin: 0 auto;
+    }
+
+  /*Bio page*/
+
+  .Biopicture img {
+    width: 30%;
+    height: 60%;
+    margin-left: 20%;
+    margin-right: 10%;
+  }
+
+  .biography {
+    font-family: 'Spectral', serif;
+    font-size: 21px;
+    padding-left: 15%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  /*Contact page*/
+
+  .contactcontainer {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .contactinfo {
+    width: 30%;
+    font-family: 'Spectral', serif;
+    font-size: 21px;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  .contactsocial {
+    font-family: 'Spectral', serif;
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+  }
+
+  .contactsocial p {
+    margin-right: 6px;
+  }
