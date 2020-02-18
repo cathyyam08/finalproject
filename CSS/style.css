@@ -94,7 +94,7 @@ html {
   .Biopicture {
     margin-left: 15%;
     margin-right: 5%;
-    width: 30%;
+    width: 300px;
     height: auto;
   }
 
@@ -111,15 +111,18 @@ html {
 
   .contactcontainer {
     display: flex;
+    justify-content: center;
+  }
+
+  .contactpicture {
+    width: 300px;
+    height: auto;
   }
 
   .contactinfo {
-    width: 40%;
+    margin-left: 8%;
     font-family: 'Spectral', serif;
     font-size: 21px;
-    padding-right: 5%;
-    padding-top: 2%;
-    padding-bottom: 2%;
   }
 
   .contactsocial {
