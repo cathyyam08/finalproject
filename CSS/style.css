@@ -20,7 +20,18 @@ html {
     margin-bottom: 3%;
     margin-left: 10%;
     font-family: 'Spectral', serif;
-    font-size: 24px;
+  }
+
+  @media screen and (min-width: 600px) {
+    .nameandtitle {
+      font-size: 24px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .nameandtitle {
+      font-size: 17px;
+    }
   }
 
   .Homepagepicture {
@@ -40,7 +51,6 @@ html {
   .menu {
     width: 80%;
     font-family: 'Spectral', serif;
-    font-size: 21px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -49,6 +59,18 @@ html {
     margin-left: auto;
     margin-right: auto;
     width: 75%;
+  }
+
+  @media screen and (min-width: 600px) {
+    .menu {
+      font-size: 21px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .menu {
+      font-size: 15px;
+    }
   }
 
   .menu a {
@@ -69,7 +91,18 @@ html {
     width: 70%;
     margin: 0 auto;
     font-family: 'Spectral', serif;
-    font-size: 15px;
+  }
+
+  @media screen and (min-width: 600px) {
+    .Writtenwork {
+      font-size: 15px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .Writtenwork {
+      font-size: 10px;
+    }
   }
 
   .Writtenwork .carousel .card img {
@@ -94,17 +127,39 @@ html {
   .Biopicture {
     margin-left: 15%;
     margin-right: 5%;
-    width: 300px;
     height: auto;
+  }
+
+  @media screen and (min-width: 600px) {
+    .Biopicture {
+      width: 300px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .Biopicture {
+      width: 200px;
+    }
   }
 
   .biography {
     width: 40%;
     font-family: 'Spectral', serif;
-    font-size: 21px;
     padding-right: 5%;
     padding-top: 2%;
     padding-bottom: 2%;
+  }
+
+  @media screen and (min-width: 600px) {
+    .biography {
+      font-size: 21px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .biography {
+      font-size: 15px;
+    }
   }
 
   /*Contact page*/
@@ -115,23 +170,57 @@ html {
   }
 
   .contactpicture {
-    width: 300px;
+    margin-left: 15%;
+    padding-right: 20%;
     height: auto;
   }
 
+  @media screen and (min-width: 600px) {
+    .contactpicture {
+      width: 300px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .contactpicture {
+      width: 200px;
+    }
+  }
+
   .contactinfo {
-    margin-left: 8%;
     font-family: 'Spectral', serif;
-    font-size: 21px;
+  }
+
+  @media screen and (min-width: 600px) {
+    .contactinfo {
+      font-size: 21px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .contactinfo {
+      font-size: 15px;
+    }
   }
 
   .contactsocial {
     font-family: 'Spectral', serif;
-    font-size: 21px;
     display: flex;
     align-items: center;
     flex-direction: row;
     text-align: center;
+  }
+
+  @media screen and (min-width: 600px) {
+    .contactsocial {
+      font-size: 21px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .contactsocial {
+      font-size: 15px;
+    }
   }
 
   .contactsocial p {
