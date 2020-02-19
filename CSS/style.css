@@ -16,21 +16,27 @@ html {
   }
 
   .nameandtitle {
+    margin-left: 14%;
     margin-top: 3%;
     margin-bottom: 3%;
-    margin-left: 10%;
     font-family: 'Spectral', serif;
   }
 
   @media screen and (min-width: 600px) {
-    .nameandtitle {
-      font-size: 24px;
+    .nameandtitle h1 {
+      font-size: 30px;
+    }
+    .nameandtitle h2 {
+      font-size: 21px;
     }
   }
 
   @media screen and (max-width: 600px) {
-    .nameandtitle {
-      font-size: 17px;
+    .nameandtitle h1 {
+      font-size: 21px;
+    }
+    .nameandtitle h2 {
+      font-size: 15px;
     }
   }
 
@@ -57,7 +63,7 @@ html {
     flex-direction: row;
     text-align: center;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 6%;
     width: 75%;
   }
 
@@ -170,20 +176,47 @@ html {
   }
 
   .contactpicture {
-    margin-left: 15%;
     padding-right: 20%;
     height: auto;
   }
 
+  .nameandtitlecontactpage {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    font-family: 'Spectral', serif;
+  }
+
   @media screen and (min-width: 600px) {
+    .nameandtitlecontactpage {
+      margin-left: 14%;
+    }
+    .nameandtitlecontactpage h1 {
+      font-size: 30px;
+    }
+    .nameandtitlecontactpage h2 {
+      font-size: 21px;
+    }
     .contactpicture {
       width: 300px;
+      margin-left: 15%;
     }
   }
 
   @media screen and (max-width: 600px) {
+    .nameandtitlecontactpage {
+      font-size: 21px;
+      margin-left: 8%;
+    }
     .contactpicture {
       width: 200px;
+      margin-left: 17%;
+    }
+
+    .nameandtitlecontactpage h1 {
+        font-size: 21px;
+      }
+      .nameandtitlecontactpage h2 {
+        font-size: 15px;
     }
   }
 
@@ -191,15 +224,20 @@ html {
     font-family: 'Spectral', serif;
   }
 
+  .contactinfo a{
+    text-decoration: none;
+    color: black;
+  }
+
   @media screen and (min-width: 600px) {
     .contactinfo {
-      font-size: 21px;
+      font-size: 17px;
     }
   }
 
   @media screen and (max-width: 600px) {
     .contactinfo {
-      font-size: 15px;
+      font-size: 12px;
     }
   }
 
@@ -213,13 +251,13 @@ html {
 
   @media screen and (min-width: 600px) {
     .contactsocial {
-      font-size: 21px;
+      font-size: 17px;
     }
   }
 
   @media screen and (max-width: 600px) {
     .contactsocial {
-      font-size: 15px;
+      font-size: 12px;
     }
   }
 
