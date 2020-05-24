@@ -17,26 +17,26 @@ html {
 
   .nameandtitle {
     margin-left: 14%;
-    margin-top: 3%;
-    margin-bottom: 3%;
+    margin-top: 1%;
+    margin-bottom: 1%;
     font-family: 'Spectral', serif;
   }
 
   @media screen and (min-width: 600px) {
     .nameandtitle h1 {
-      font-size: 30px;
+      font-size: 35px;
     }
     .nameandtitle h2 {
-      font-size: 21px;
+      font-size: 26px;
     }
   }
 
   @media screen and (max-width: 599px) {
     .nameandtitle h1 {
-      font-size: 21px;
+      font-size: 26px;
     }
     .nameandtitle h2 {
-      font-size: 17px;
+      font-size: 21px;
     }
   }
 
@@ -50,7 +50,7 @@ html {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 2%;
+    padding-bottom: 1%;
     width: 75%
   }
 
@@ -78,12 +78,11 @@ html {
     text-align: center;
     margin-left: auto;
     margin-right: 6%;
-    width: 75%;
   }
 
   @media screen and (min-width: 600px) {
     .menu {
-      font-size: 21px;
+      font-size: 24px;
     }
 
     .Homepagepicturevertical img {
@@ -93,7 +92,7 @@ html {
 
   @media screen and (max-width: 599px) {
     .menu {
-      font-size: 17px;
+      font-size: 21px;
     }
 
     .Homepagepicture img {
@@ -148,10 +147,6 @@ html {
     flex-direction: column;
   }
 
-  .bodycontainer {
-    display: flex;
-  }
-
   .Biopicture {
     margin-left: 15%;
     margin-right: 5%;
@@ -162,32 +157,41 @@ html {
     .Biopicture {
       width: 300px;
     }
+
+    .bodycontainer {
+      display: flex;
+      align-items: flex-start;
+    }
+
+    .biography {
+      width: 40%;
+      font-size: 24px;
+    }
   }
 
   @media screen and (max-width: 599px) {
     .Biopicture {
-      width: 200px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+
+    .bodycontainer {
+      flex-direction: vertical;
+    }
+
+    .biography {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 70%;
+      font-size: 17px;
     }
   }
 
   .biography {
-    width: 40%;
     font-family: 'Spectral', serif;
-    padding-right: 5%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-  }
-
-  @media screen and (min-width: 600px) {
-    .biography {
-      font-size: 21px;
-    }
-  }
-
-  @media screen and (max-width: 599px) {
-    .biography {
-      font-size: 15px;
-    }
   }
 
   /*Contact page*/
@@ -203,8 +207,8 @@ html {
   }
 
   .nameandtitlecontactpage {
-    margin-top: 3%;
-    margin-bottom: 3%;
+    margin-top: 1%;
+    margin-bottom: 1%;
     font-family: 'Spectral', serif;
   }
 
@@ -213,10 +217,10 @@ html {
       margin-left: 14%;
     }
     .nameandtitlecontactpage h1 {
-      font-size: 30px;
+      font-size: 35px;
     }
     .nameandtitlecontactpage h2 {
-      font-size: 21px;
+      font-size: 26px;
     }
     .contactpicture {
       width: 300px;
@@ -226,7 +230,6 @@ html {
 
   @media screen and (max-width: 599px) {
     .nameandtitlecontactpage {
-      font-size: 21px;
       margin-left: 8%;
     }
     .contactpicture {
@@ -235,10 +238,10 @@ html {
     }
 
     .nameandtitlecontactpage h1 {
-        font-size: 21px;
+        font-size: 26px;
       }
       .nameandtitlecontactpage h2 {
-        font-size: 15px;
+        font-size: 21px;
     }
   }
 
@@ -286,3 +289,48 @@ html {
   .contactsocial p {
     margin-right: 6px;
   }
+
+/*Written pieces pages*/
+
+.writtenpiececontainer {
+  .flex-direction: column;
+}
+
+.writtenpieceimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+@media screen and (min-width: 600px) {
+  .writtenpieceimage {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .writtenpieceimage {
+    width: 200px;
+  }
+}
+
+.writtenpiece {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  font-family: 'Spectral', serif;
+}
+
+@media screen and (min-width: 600px) {
+  .writtenpiece {
+    font-size: 21px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  .writtenpiece {
+    font-size: 15px;
+  }
+}
