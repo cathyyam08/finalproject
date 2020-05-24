@@ -118,7 +118,6 @@ html {
     width: 70%;
     margin: 0 auto;
     font-family: 'Spectral', serif;
-    text-decoration: none;
   }
 
   @media screen and (min-width: 600px) {
@@ -136,6 +135,10 @@ html {
   .Writtenwork .carousel .card img {
     width: 100%;
     margin-right;
+  }
+
+  .Writtenwork .carousel .h3 {
+    text-decoration: none;
   }
 
   .card {
