@@ -118,6 +118,7 @@ html {
     width: 70%;
     margin: 0 auto;
     font-family: 'Spectral', serif;
+    text-decoration: none;
   }
 
   @media screen and (min-width: 600px) {
@@ -137,7 +138,7 @@ html {
     margin-right;
   }
 
-  .Writtenwork .carousel .h3 {
+  .Writtenwork .carousel a {
     text-decoration: none;
   }
 
