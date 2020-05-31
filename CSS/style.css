@@ -92,7 +92,7 @@ html {
 
   @media screen and (max-width: 599px) {
     .menu {
-      font-size: 15px;
+      font-size: 17px;
     }
 
     .Homepagepicture img {
@@ -337,6 +337,6 @@ html {
 
 @media screen and (max-width: 599px) {
   .writtenpiece {
-    font-size: 15px;
+    font-size: 17px;
   }
 }
