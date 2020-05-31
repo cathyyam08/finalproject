@@ -33,7 +33,7 @@ html {
 
   @media screen and (max-width: 599px) {
     .nameandtitle h1 {
-      font-size: 26px;
+      font-size: 21px;
     }
     .nameandtitle h2 {
       font-size: 15px;
